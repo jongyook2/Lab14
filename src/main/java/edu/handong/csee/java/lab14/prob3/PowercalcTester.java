@@ -4,7 +4,7 @@ import java.util.Scanner; //import standard input from keyboard
 public class PowercalcTester { //declare PowercalcTester class
 	public static void main(String[] args) { //declare main method
 		Scanner keyboard = new Scanner(System.in); // instantiate Class Scanner to keyboard(input)
-		Powercalc myCalculator= new Powercalc(); //// instantiate powercalc class to myCalculator
+		Powercalc myCalculator= new Powercalc(); // instantiate powercalc class to myCalculator
 
 		do { //do loop
 			int n = keyboard.nextInt(); //store input(keyboard) in n
