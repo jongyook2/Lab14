@@ -2,7 +2,7 @@ package edu.handong.csee.java.lab14.prob2; //package name
 import java.util.InputMismatchException; //import InputMismathException(type of Exception)
 import java.util.Scanner; //import standard input from keyboard
 
-public class In_exception { //declare In_exception class
+public class InException { //declare InException class
 	int x, y; //declare instance variable x, y
 	public static void checkError() { //declare checkError method
 		try { //start
