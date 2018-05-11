@@ -25,7 +25,7 @@ public class SpeedLimiter { //declare class
 		speedLimit = keyboard.nextInt();//store input(keyboard) in speedLimit
 		yourSpeed = random.nextInt(101); //store random number(0~100) in yourSpeed
 	}
-	public static void warnSpeedLimit(int speedLimit, int yourSpeed) { //declare warn method(speed over)
+	public void warnSpeedLimit(int speedLimit, int yourSpeed) { //declare warn method(speed over)
 		try { //start
 			if(speedLimit < yourSpeed) { //if speedLimit is lower than yourSpeed
 				throw new Exception("Speed Limit "+speedLimit+"km exceeded!"); //throw new Exception and print
