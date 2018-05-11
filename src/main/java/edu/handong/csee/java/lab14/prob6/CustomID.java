@@ -5,7 +5,7 @@ public class CustomID extends Exception { //declare CustomID class and inherits 
 	private String name; //declare instance variable name
 	private String race; //declare instance variable race
 	private int age; //declare instance variable age
-	String raceType[]= {"Vulcan", "Romulan", "Klingons"}; //declare raceType array and store 3 races
+	String raceType[]= {"Vulcans", "Romulan", "Klingons"}; //declare raceType array and store 3 races
 	Scanner keyboard = new Scanner(System.in); // instantiate Class Scanner to keyboard(input)
 
 	public void setName() throws Exception { //declare setter method and throws Exception
